@@ -1,0 +1,13 @@
+button {
+    font-family: 'Stardos Stencil', cursive;
+    border: 2px solid black;
+    font-size:  1.3em;
+    border-radius:20%;
+    margin-top: 200px;
+}
+
+div {
+margin: 0 auto;
+}
+
+

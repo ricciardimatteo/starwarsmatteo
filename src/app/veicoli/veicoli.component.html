@@ -1,0 +1,24 @@
+<app-navbar-starwars> </app-navbar-starwars>
+<div id="veicoli">
+
+    <div id="tabella">
+        <h1> Le 10 Starships più famose di Star Wars <i class="fas fa-fighter-jet"> </i>  </h1>
+        <table class="table table-success table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                   
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of veicoli.results; let i = index">
+                    <th scope="row">{{i+1}} </th>
+                    <td>{{item.name}}</td>
+                    
+                </tr>
+
+            </table>
+    </div>
+</div>
+

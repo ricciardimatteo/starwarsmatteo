@@ -1,0 +1,17 @@
+#add {
+    text-align: center;
+    font-family: 'Stardos Stencil', cursive;
+    color: rgb(187, 43, 231);
+    width: 400px;
+    padding: 25px;
+    margin: 0 auto;
+    background-color:rgba(0, 0, 0, 0.822)
+}
+
+#create {
+        width: 100%;
+        height: 100%;
+        background-image: url(../../assets/img/newuser.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+}

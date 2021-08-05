@@ -1,0 +1,20 @@
+#veicoli {
+    width: 100%;
+    height: 100%;
+    background-image: url(../../assets/img/veicolispaziali.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    #tabella {
+    padding-top: 90px;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    font-family: 'Stardos Stencil', cursive;
+    }
+    #tabella h1 {
+        text-align: center;
+    color: rgb(10, 10, 5);
+    font-family: 'Stardos Stencil', cursive;
+    }

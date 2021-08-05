@@ -1,0 +1,24 @@
+<app-navbar-starwars> </app-navbar-starwars>
+<div id="people">
+
+    <div id="tabella">
+        <h1> I 10 Personaggi più amati della serie  <i class="fas fa-film"> </i> </h1>
+        <table class="table table-info table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                   
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of people.results; let i = index">
+                    <th scope="row">{{i+1}}</th>
+                    <td>{{item.name}}</td>
+                    
+                   
+
+                </tr>
+        </table>
+    </div>
+</div>

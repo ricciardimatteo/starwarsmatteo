@@ -1,0 +1,24 @@
+<app-navbar-starwars> </app-navbar-starwars>
+<div id="pianeti">
+
+    <div id="tabella">
+        <h1> I 10 Pianeti più famosi di Star Wars <i class="fas fa-globe-europe"> </i> </h1>
+        <table class="table table-dark table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                   
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of planets.results; let i = index">
+                    <th scope="row">{{item.uid}}</th>
+                    <td>{{item.name}}</td>
+                    
+                   
+
+                </tr>
+        </table>
+    </div>
+</div>

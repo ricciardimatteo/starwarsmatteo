@@ -1,0 +1,38 @@
+<app-navbar-users></app-navbar-users>
+
+<div id="fans">
+
+    <div id="tabellafans">
+
+        <h1>I nostri Utenti del Mese</h1>
+        <table class="table table-dark table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Username</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">City</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+
+
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of dataSource">
+                    <th scope="row">{{item.id}}</th>
+                    <td>{{item.name}}</td>
+                    <td>{{item.username}}</td>
+                    <td>{{item.email}}</td>
+                    <td>{{item.address.city}}</td>
+                    <td><button (click)="removeUsers(item)" mat-fab color="primary" aria-label="Example icon button with a delete icon"><mat-icon>delete</mat-icon></button></td>
+                    <td><button (click)="selectEditUsers(item)" mat-flat-button color="primary">Modifica Utente <i class="fas fa-sync"></i> </button></td>
+            </tbody>
+        </table>
+
+
+    </div>
+
+</div>

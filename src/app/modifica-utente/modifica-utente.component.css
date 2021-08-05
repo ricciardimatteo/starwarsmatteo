@@ -1,0 +1,21 @@
+mat-form-field, button {
+    width: 100%;
+}
+
+#modify {
+    text-align: center;
+    font-family: 'Stardos Stencil', cursive;
+    color: rgb(69, 228, 55);
+    width: 400px;
+    padding: 25px;
+    margin: 0 auto;
+    background-color:rgba(0, 0, 0, 0.822)
+}
+
+#edit {
+        width: 100%;
+        height: 100%;
+        background-image: url(../../assets/img/newus.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+}

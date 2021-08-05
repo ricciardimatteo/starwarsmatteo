@@ -1,0 +1,30 @@
+<app-navbar-users></app-navbar-users>
+
+<div id="edit">
+    <div id="modify">
+    <h1>Login Membri</h1>
+    <p>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Email</mat-label>
+            <input matInput placeholder="Enter Your Email"[(ngModel)]="utente.email" >
+            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+          </mat-form-field>
+
+          <mat-form-field appearance="fill">
+            <mat-label>Name</mat-label>
+            <input matInput placeholder="Enter Your Name"[(ngModel)]="utente.name" >
+            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+          </mat-form-field>
+
+        <mat-form-field appearance="fill">
+          <mat-label>UserName</mat-label>
+          <input matInput placeholder="Enter Your UserName"[(ngModel)]="utente.username" >
+          <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+        </mat-form-field>
+
+          <button mat-raised-button color="primary"(click)="editUser()" > Modifica <i class="fas fa-sync"></i> </button>
+      </p>
+    </div>
+    
+    </div>

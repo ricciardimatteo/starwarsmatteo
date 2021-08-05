@@ -1,0 +1,27 @@
+<app-navbar-users></app-navbar-users>
+<div id="create">
+    <div id="add">
+
+    <h1>Add nuovo Fan <i class="fas fa-user-plus"></i> </h1>
+        <mat-form-field appearance="fill">
+            <mat-label>Email</mat-label>
+            <input matInput placeholder="Enter Your Email"[(ngModel)]="Utente.email" >
+            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+          </mat-form-field>
+
+          <mat-form-field appearance="fill">
+            <mat-label>Name</mat-label>
+            <input matInput placeholder="Enter Your Name"[(ngModel)]="Utente.name" >
+            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+          </mat-form-field>
+
+        <mat-form-field appearance="fill">
+          <mat-label>UserName</mat-label>
+          <input matInput placeholder="Enter Your UserName"[(ngModel)]="Utente.username" >
+          <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+        </mat-form-field> <br>
+
+     <button mat-raised-button color="primary"(click)="addNewFan()" >Benvenuto <i class="fas fa-fighter-jet"></i>  </button>
+    </div>
+    
+    </div>
